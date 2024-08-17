@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background:linear-gradient(to bottom, red,blue);
+  min-height: 100vh;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.clock{
+  display: flex;
+}
+
+.clock div{
+  height: 330px;
+  width:330px;
+  border-radius: 12px;
+  color: white;
+  background-color: black;
+  margin-left: 10px;
+  font-size: 250px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.extra{
+  display: flex;
+  justify-content: center;
+}
+
+.dateAndday{
+  padding: 10px;
+  height: 100px;
+  width: 1010px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-size: 60px;
+  border-radius: 12px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#alldates{
+  display: flex;
+}
+
+span{
+  font-size: small;
+}
