@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  background: url(images/happpy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clock{
+  height: 18vh;
+  width: 18vw;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.time_cont{
+  margin-top: 20px;
+}
+
+#lebal{
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+#time{
+  height: 10vh;
+  width: 10vw;
+  font-size: larger;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+#date_cont{
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+#date{
+  height: 10vh;
+  width: 10vw;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.cal{
+  height: 50vh;
+  width: 25vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: 30vh;
+  left: 35vw;
+}
+
+.years{
+  height: 70px;
+  width: 23vw;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#year{
+  height: 30px;
+  width: 21vw;
+  border: none;
+  border-radius: 5px;
+  margin-left: 14px;
+}
+
+.cal h1{
+  margin-left: 14px;
+}
+
+.months{
+  height: 70px;
+  width: 23vw;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#month{
+  height: 30px;
+  width: 21vw;
+  border: none;
+  border-radius: 5px;
+  margin-left: 14px;
+}
+
+.dates{
+  height: 70px;
+  width: 23vw;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#inputDate{
+  height: 30px;
+  width: 21vw;
+  border: none;
+  border-radius: 5px;
+  margin-left: 14px;
+}
+
+.result{
+  height: 9vh;
+  width: 22vw;
+  margin-top: 10px;
+  margin-left: 14px;
+  padding: 5px;
+}
+
+
+button{
+  height: 40px;
+  width: 80px;
+  background-color: rgb(255, 0, 217);
+  margin-top: 20px;
+  margin-left: 9vw;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background: linear-gradient(130deg , blue, white);
+  font-size: large;
+  color: black;
+  cursor: pointer;
+}
+
+input{
+  font-size: larger;
+  font-weight: 500;
+}
+
+input:hover{
+  background: linear-gradient(130deg, rgb(31, 163, 102), rgb(162, 56, 204));
+}
