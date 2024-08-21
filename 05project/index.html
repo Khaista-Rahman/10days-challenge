@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>electricity meter counting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cal">
+      <div class="pre">
+        <h1>previous-unit</h1>
+        <input type="number" id="pre_input" placeholder="enter your previous units">
+      </div>
+      <div class="curr">
+        <h1>current-unit</h1>
+        <input type="number" id="curr_input" placeholder="enter your current units">
+      </div>
+      <p>
+        <span id="unitTag"></span><br>
+        <span id="priceTag"></span>
+      </p>
+      <button>calculate</button>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
