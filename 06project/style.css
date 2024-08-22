@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: gray;
+}
+
+h3{
+  font-size: xx-large;
+  margin-left: 40vw;
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+h3:hover{
+  font-weight: 999;
+  color: darkkhaki;
+}
+
+.container{
+  height: 50vh;
+  width: 98.4vw;
+  background: url(images/pexels-photo-1179476.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 40px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  height: 25vh;
+  width: 15vw;
+  margin-left: 10px;
+  border-radius: 50%;
+  border: 10px solid rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  height: 30vh;
+  width: 100vw;
+  border: none;
+}
+
+button{
+  height: 10vh;
+  width: 5vw;
+  margin-left: 20px;
+  border-radius: 50%;
+  font-weight: 900;
+}
+
+#start{
+  background-color: green;
+  color: white;
+}
+
+#start:hover{
+  height: 11vh;
+  width: 6vw;
+  background: linear-gradient(130deg, blue,  white);
+  cursor: pointer;
+}
+
+#stop{
+  background-color: red;
+  color: white;
+}
+
+#stop:hover{
+  height: 11vh;
+  width: 6vw;
+  background: linear-gradient(130deg, rgb(184, 22, 84),  white);
+  cursor: pointer;
+}
+
+#reset{
+  background-color: blue;
+  color: white;
+}
+
+#reset:hover{
+  height: 11vh;
+  width: 6vw;
+  background: linear-gradient(130deg, rgb(7, 119, 142),  white);
+  cursor: pointer;
+}
