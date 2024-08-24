@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav{
+  height: 10vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(102, 98, 98);
+}
+
+.contain{
+  height: 72vh;
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#game{
+  height: 150px;
+  width: 150px;
+  border: 3px solid black;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  background-color: gray;
+  transition: background-color , 3s;
+}
+
+#game:hover{
+  background :linear-gradient(130deg , blue , white, black);
+  cursor: pointer;
+}
+
+
+p{
+  height: 10vh;
+  width: fit-content;
+  overflow: hidden;
+  margin-left: 100px;
+  font-size: x-large;
+  font-weight: 800;
+  color: white;
+}
+
+#Reset{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 100px;
+}
+
+#Reset:hover{
+  background: linear-gradient(130deg , white , blue);
+  border: none;
+  cursor: pointer;
+}
